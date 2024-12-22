@@ -1,1 +1,5 @@
 #1.0
+
+import os
+cmd = "msg * hi"
+os.system(cmd)
